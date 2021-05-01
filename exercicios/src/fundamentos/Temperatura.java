@@ -6,11 +6,10 @@ public class Temperatura
 	{
 		// (ºF - 32) x 5/9 = ºC	
 		double tempFarenheit = 75.5;
-		final double x = 32;
-		final double fator = 5.0 / 9; //mesmo que seja inteiro utiliza fracionados
+		final double AJUSTE = 32;
+		final double FATOR = 5.0 / 9.0; //mesmo que seja inteiro utiliza fracionados
 		double tempCelcius;
-		
-		tempCelcius = (tempFarenheit - x) * fator;
+		tempCelcius = (tempFarenheit - AJUSTE) * FATOR;
 		
 		System.out.println("A temperatura em celcius é : " + tempCelcius);
 	}
