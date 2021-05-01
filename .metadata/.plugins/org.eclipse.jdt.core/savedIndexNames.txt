@@ -1,4 +1,2 @@
 INDEX VERSION 1.131+C:\Users\Edilson\CursoJavaUdemy\.metadata\.plugins\org.eclipse.jdt.core
-3732647088.index
-3894238969.index
 3654592591.index
