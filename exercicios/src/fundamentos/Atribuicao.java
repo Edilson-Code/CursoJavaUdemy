@@ -14,5 +14,6 @@ public class Atribuicao
 		c /= a;//c = c / a;
 		c %= 2;//c = c % c; 0 ou 1
 		
+		System.out.println(c);
 	}
 }
