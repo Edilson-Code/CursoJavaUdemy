@@ -6,7 +6,21 @@ public class SomaPositivo
 {
 	public static void main(String[] args) 
 	{
-		Scanner entrada = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
+
+		int somadorDeNumeros = 0;
+		int numero = 0;
+
+		while (numero >= 0) {
+			System.out.println("Digite um numero inteiro (zero ou negativo para sair): ");
+			numero = scanner.nextInt();
+			if (numero >= 0) {
+				somadorDeNumeros += numero; // Isso é igual a somadorDeNumeros = somadorDeNumeros + numero;
+				System.out.printf("\nSoma até o momento: %d\n", somadorDeNumeros);
+			}
+		}
+		scanner.close();
+		/*Scanner entrada = new Scanner(System.in);
 		
 		double num = 0;
 		double total = 0;
@@ -24,6 +38,6 @@ public class SomaPositivo
 			System.out.printf("Total : %.2f",total);
 		}while(num > 0);
 		
-		entrada.close();
+		entrada.close();*/
 	}
 }
