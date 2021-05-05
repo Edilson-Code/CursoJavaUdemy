@@ -19,7 +19,7 @@ public class ProdutoTeste
 		System.out.println(prod2.nome);
 		
 		double precoFinal1 = prod1.preco * (1  - prod1.desconto);
-		double precoFinal2 = prod2.preco * (1  - prod2.desconto);
+		double precoFinal2 = prod2.precoComDesconto(0.35);
 		double mediaCarrinho = (precoFinal1 + precoFinal2) /2;
 		
 		System.out.printf("Média do carrinho = R$%.2f", mediaCarrinho);
