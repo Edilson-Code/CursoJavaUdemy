@@ -15,8 +15,8 @@ public class DataTeste
 		d2.mes = 05;
 		d2.ano = 2021;
 		
-		System.out.printf("A data de nascimento é %d/%d/%d",d1.dia,d1.mes,d1.ano);
-		System.out.printf("\nA data atual é %d/%d/%d",d2.dia,d2.mes,d2.ano);
+		System.out.println("A data de nascimento é " + d1.obterDataFormatada());
+		System.out.printf("\nA data atual é " + d2.obterDataFormatada());
 		
 	}
 }
