@@ -9,7 +9,7 @@ public class Primo
 		Scanner entrada = new Scanner(System.in);
 		System.out.print("Digite um numero : ");
 		double num = entrada.nextDouble();
-		int contador = 0;
+		int contador = 2;
 		double primo = 0;
 		
 		while(contador <= num)
